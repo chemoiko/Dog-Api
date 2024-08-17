@@ -7,7 +7,7 @@ This project provides a simple Django REST API for managing dogs and their breed
 - [🐕 Models](#-models)
 - [📡 API Endpoints](#-api-endpoints)
 - [🧪 Testing](#-testing)
-- [📝 License](#-license)
+
 
 ## ✨ Features
 - Create, retrieve, update, and delete dog records.
