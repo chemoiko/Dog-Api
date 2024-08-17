@@ -1,42 +1,28 @@
-🐶 Dog and Breed API
+# 🐶 Dog and Breed API
+
 This project provides a simple Django REST API for managing dogs and their breeds. The API allows users to create, retrieve, update, and delete records for dogs and breeds. Each dog record is associated with a breed, and each breed has specific characteristics like size, friendliness, and trainability.
 
-📋 Table of Contents
-✨ Features
-🛠 Installation
-🐕 Models
-📡 API Endpoints
-🧪 Testing
-📝 License
-✨ Features
-Create, retrieve, update, and delete dog records.
-Create, retrieve, update, and delete breed records.
-Easily extendable and customizable.
-Follows RESTful best practices.
-🛠 Installation
-Clone the repository:
-bash
-Copy code
+## 📋 Table of Contents
+- [✨ Features](#-features)
+- [🛠 Installation](#-installation)
+- [🐕 Models](#-models)
+- [📡 API Endpoints](#-api-endpoints)
+- [🧪 Testing](#-testing)
+- [📝 License](#-license)
+
+## ✨ Features
+- Create, retrieve, update, and delete dog records.
+- Create, retrieve, update, and delete breed records.
+- Easily extendable and customizable.
+- Follows RESTful best practices.
+
+## 🛠 Installation
+
+### Clone the repository:
+
+```bash
 git clone https://github.com/yourusername/dog-breed-api.git
 cd dog-breed-api
-Create a virtual environment:
-bash
-Copy code
-python3 -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
-Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Apply migrations:
-bash
-Copy code
-python manage.py makemigrations
-python manage.py migrate
-Run the server:
-bash
-Copy code
-python manage.py runserver
 🐕 Models
 Dog Model
 Fields:
