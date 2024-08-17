@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables
+.env
+
+# Virtual environment
+env/
+venv/
+ENV/
+venv.bak/
+*venv/
+.venv/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.so
+*.dylib
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg-info/
+.installed.cfg
+lib/
+lib64/
+__pycache__/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Testing
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pipenv
+pipenv.lock
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+*.swp
+.DS_Store
+__pycache__/
+*.class
